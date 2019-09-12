@@ -18,4 +18,4 @@
 - React
 - Easy-Peasy (Redux)
 - Styled Components
-- Storybooks
+- Storybook
