@@ -3,7 +3,7 @@ import Todo from './Todo';
 
 const TodosList = () => {
   return (
-    <ul class="todos-list">
+    <ul className="todos-list">
       <Todo title="Título do todo" />
     </ul>
   );

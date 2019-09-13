@@ -4,7 +4,7 @@ import Button from './Button';
 
 const Todo = ({ title }) => {
   return (
-    <li class="todo-item">
+    <li className="todo-item">
       <Text>{title}</Text>
       <Button>Deletar</Button>
     </li>
