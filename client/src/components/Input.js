@@ -4,7 +4,6 @@ import theme from '../theme';
 const Input = styled.input`
   font-size: 16px;
   font-weight: 400;
-  font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
   color: ${props => props.theme.text};
   padding: 10px;
   border: none;

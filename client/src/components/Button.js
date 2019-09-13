@@ -4,7 +4,6 @@ import theme from '../theme';
 const Button = styled.button`
   font-size: 16px;
   font-weight: 700;
-  font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
   border-radius: 4px;
   padding: 9px 14px;
   max-width: 100%;
