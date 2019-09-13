@@ -27,7 +27,7 @@ code {
 .todos-list {
   list-style: none;
   width: 600px;
-  margin: 40px auto;
+  margin: 10px auto 40px auto;
   border-radius: 4px;
   background-color: var(--secondary-color);
   padding: 20px;
@@ -37,9 +37,8 @@ code {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 10px;
+  padding: 10px 0;
   border-bottom: 1px solid var(--bg-color);
-  cursor: pointer;
   transform: scale(1);
   transition: all 0.4s ease-in-out;
 }
@@ -48,7 +47,8 @@ code {
   transform: scale(0.97);
 }
 
-.todo-item p {
+.todo-item span {
+  cursor: pointer;
   display: inline-flex;
 }
 
