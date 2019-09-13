@@ -16,6 +16,6 @@
 - Node
 - Express
 - React
-- Easy-Peasy (Redux)
+- Easy Peasy (Redux)
 - Styled Components
 - Storybook

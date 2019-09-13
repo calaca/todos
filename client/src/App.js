@@ -1,24 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
+import Title from './components/Title';
+import Input from './components/Input';
+import Button from './components/Button';
+import Warning from './components/Warning';
+import TodosList from './components/TodosList';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Title as="h1">TODOS</Title>
       </header>
+      <main>
+        <Input
+          name="title"
+          type="text"
+          placeholder="Título do todo"
+          // value={title}
+          // onChange={e => setName(e.target.value)}
+        />
+        <Button>Adicionar</Button>
+        <Warning>Clique em um item para marcá-lo como completo</Warning>
+        <TodosList />
+      </main>
     </div>
   );
 }
